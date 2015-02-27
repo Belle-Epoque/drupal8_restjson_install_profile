@@ -1,0 +1,51 @@
+name: Restjson
+type: profile
+description: 'Profile with REST/JSON modules'
+version: '8.0.0-beta7'
+core: '8.x'
+dependencies:
+# Core dependencies.
+  - node
+  - history
+  - block
+  - breakpoint
+  - ckeditor
+  - color
+  - config
+  - comment
+  - contextual
+  - contact
+  - menu_link_content
+  - datetime
+  - block_content
+  - quickedit
+  - editor
+  - entity_reference
+  - help
+  - image
+  - menu_ui
+  - options
+  - path
+  - taxonomy
+  - dblog
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - tour
+  # REST/JSON core modules.
+  - serialization
+  - rest
+  - hal
+  - basic_auth
+# Contrib dependencies.
+#  - oauth
+  - restui
+# Custom dependencies.
+themes:
+  - bartik
+  - seven
